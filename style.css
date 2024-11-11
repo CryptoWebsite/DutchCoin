@@ -37,11 +37,11 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Styling for the Featured Image */
+/* Centering the Featured Image */
 .featured-image {
     display: block;
-    margin: 1em auto;
-    max-width: 100px; /* Adjust as needed */
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 200px; /* Adjust as needed */
     border-radius: 50%; /* Makes it circular */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
