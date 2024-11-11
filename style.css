@@ -44,12 +44,15 @@ nav ul li a {
     max-width: 800px; /* Optional: Adds a max width to keep content compact */
 }
 
-/* Centering the Featured Image */
+/* Centering the Featured Image with Fixed Size */
 .featured-image {
-    max-width: 200px; /* Adjust as needed */
+    width: 200px; /* Sets a consistent size */
+    display: block;
+    margin: 1em auto; /* Centers the image horizontally */
     border-radius: 50%; /* Makes it circular */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 
 /* Sections */
