@@ -35,12 +35,17 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    
+/* Centering the Welcome Text and Image Container */
+.welcome-text {
+    text-align: center; /* Center-aligns all content inside */
+    padding: 0; /* Ensures no extra padding on sides */
+    margin: 0 auto; /* Centers the container */
+    max-width: 800px; /* Optional: Adds a max width to keep content compact */
 }
 
 /* Centering the Featured Image */
 .featured-image {
-    display: block;
-    margin: 0 auto; /* Centers the image horizontally */
     max-width: 200px; /* Adjust as needed */
     border-radius: 50%; /* Makes it circular */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
