@@ -84,6 +84,13 @@ button:hover {
     background-color: #e65c00;
 }
 
+}
+/* Set the cursor to a stroopwafel image */
+body {
+    cursor: url('https://github.com/CryptoWebsite/DutchCoin/raw/main/favicon-32x322.png'), auto; /* Make sure the URL is correct */
+}
+
+
 /* Footer */
 footer {
     text-align: center;
@@ -92,3 +99,4 @@ footer {
     color: #fff;
     font-size: 0.9em;
 }
+
