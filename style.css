@@ -58,6 +58,41 @@ section h2 {
     margin-bottom: 1em;
 }
 
+h3 {
+    color: #ff6700;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+
+pre {
+    background-color: #f2f2f2;
+    padding: 1em;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+a {
+    color: #ff6700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+}
+
+ul, ol {
+    margin-left: 20px;
+    font-size: 1.1em;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
 /* Centering and Styling the Featured Image */
 .featured-image {
     display: block;
